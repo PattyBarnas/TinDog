@@ -1,0 +1,195 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 5% 5% auto;
+}
+
+/* navigation bar */
+.form-inline {
+  padding: 0 0 6.5rem;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.5rem;
+  margin: 2px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 30px;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Section */
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* title image */
+.dog-img {
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features*/
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-weight: 900;
+}
+
+.feature-img {
+  margin-bottom: 1.5rem;
+  color: #ef8172;
+}
+
+.feature-img:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* testimonial Section */
+#testimonials {
+  padding: 7% 20%;
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 6rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.button {
+  width: 80%;
+}
+
+.carousel-prev, .carousel-next {
+  margin: -175px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .dog-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA Section */
+#cta {
+  padding: 5% 7%;
+}
+
+#footer {
+  padding: 7% 7%;
+}
+
+.contact-logos {
+  padding-left: 1%;
+  padding-bottom: 2%;
+}
+
+.last-Buttons {
+  margin: 4% 1% auto;
+}
+
+.true-love-text {
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}

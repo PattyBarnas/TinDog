@@ -1,2 +1,1 @@
-# TinDog
-A website for dogs to find their love!
+TinDog Starting Files
